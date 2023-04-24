@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ananas Layout</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/base.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        />
+    </head>
+
+    <body>
+        <!-- Header: start -->
+        <header>
+            <!-- top-header: start -->
+            <div class="top-header">
+                <ul class="top-header_list">
+                    <li class="top-header_list-item">
+                        <a href="#" class="top-header_list-item_link"
+                            ><i
+                                class="top-header_item_icon fa-brands fa-searchengin"
+                            ></i
+                            >Tra cứu đơn hàng</a
+                        >
+                    </li>
+                    <li class="top-header_list-item">
+                        <a href="#" class="top-header_list-item_link"
+                            ><i
+                                class="top-header_item_icon fa-solid fa-location-dot"
+                            ></i
+                            >Tìm cửa hàng</a
+                        >
+                    </li>
+                    <li class="top-header_list-item">
+                        <a href="#" class="top-header_list-item_link"
+                            ><i
+                                class="top-header_item_icon fa-solid fa-heart"
+                            ></i
+                            >Yêu thích</a
+                        >
+                    </li>
+                    <li class="top-header_list-item">
+                        <a href="#" class="top-header_list-item_link"
+                            ><i
+                                class="top-header_item_icon fa-solid fa-user"
+                            ></i
+                            >Đăng nhập</a
+                        >
+                    </li>
+                    <li class="top-header_list-item">
+                        <a href="#" class="top-header_list-item_link"
+                            ><i
+                                class="top-header_item_icon fa-solid fa-cart-shopping"
+                            ></i
+                            >Giỏ hàng (0)</a
+                        >
+                    </li>
+                </ul>
+            </div>
+            <!-- top-header: end -->
+            <!-- ---------------------------------------------------------------------------- -->
+            <!-- top-header__navigation: start -->
+            <div class="top-header__nav">
+                <div class="top-header__nav-logo">
+                    <a class="top-header__nav-logo_link-img" href="/"
+                        ><img
+                            class="top-header__nav-logo_img"
+                            src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/svg/Logo_Ananas_Header.svg"
+                            alt="logo"
+                    /></a>
+                </div>
+                <div class="top-header__nav-menu">
+                    <ul class="top-header__nav-menu-list">
+                        <li class="top-header__nav-menu-item">
+                            <a href="#" class="top-header__nav-menu-item_link"
+                                >sản phẩm
+                                <i class="icon fa-solid fa-chevron-down"></i
+                            ></a>
+                        </li>
+                        <li class="line top-header__nav-menu-item"></li>
+                        <li class="top-header__nav-menu-item">
+                            <a href="#" class="top-header__nav-menu-item_link"
+                                >nam
+                                <i class="icon fa-solid fa-chevron-down"></i
+                            ></a>
+                        </li>
+                        <li class="line top-header__nav-menu-item"></li>
+                        <li class="top-header__nav-menu-item">
+                            <a href="#" class="top-header__nav-menu-item_link"
+                                >nữ <i class="icon fa-solid fa-chevron-down"></i
+                            ></a>
+                        </li>
+                        <li class="line top-header__nav-menu-item"></li>
+                        <li class="top-header__nav-menu-item">
+                            <a href="#" class="top-header__nav-menu-item_link"
+                                >sale off</a
+                            >
+                        </li>
+                        <li class="line top-header__nav-menu-item"></li>
+                        <li class="top-header__nav-menu-item">
+                            <a href="#" class="top-header__nav-menu-item_link"
+                                ><img
+                                    src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/svg/DiscoverYOU.svg"
+                                    alt="DiscoverYOU.svg"
+                            /></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="top-header__nav__search">
+                    <div class="top-header__nav__search_content">
+                        <img
+                            class="top-header__nav__search_content-img"
+                            src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/svg/icon_tim_kiem.svg"
+                            alt="icon-search"
+                        />
+                        <input
+                            class="top-header__nav__search-input"
+                            type="text"
+                            placeholder="Tìm kiếm"
+                        />
+                    </div>
+                </div>
+            </div>
+            <!-- top-header__navigation: end -->
+            <!-- ---------------------------------------------------------------------------- -->
+            <!-- bottom-header__nav: start -->
+            <div class="bottom-header__nav">
+                <div class="bottom-header__nav-left">
+                    <button type="button" class="btn-prev"></button>
+                </div>
+                <div class="bottom-header__nav-center">
+                    <p class="bottom-header__nav-content">
+                        FREE SHIPPING VỚI HOÁ ĐƠN TỪ 800K !
+                    </p>
+                </div>
+                <div class="bottom-header__nav-right">
+                    <button type="button" class="btn-next" value=""></button>
+                </div>
+            </div>
+            <!-- bottom-header__nav: end -->
+        </header>
+        <!-- Header: end -->
+        <!-- ---------------------------------------------------------------------------- -->
+        <!-- Section Banner: start -->
+        <section class="banner">
+            <img class="banner-img" src="./images/banner1.jpg" alt="banner1" />
+        </section>
+        <!-- Section Banner: end -->
+        <!-- ---------------------------------------------------------------------------- -->
+        <!-- cart-fixed: start -->
+        <div class="cart-fixed">
+            <span>0</span
+            ><i
+                class="cart-fixed-icon top-header_item_icon fa-solid fa-cart-shopping"
+            ></i>
+        </div>
+        <!-- cart-fixed: end -->
+        <div class="button-social">
+            <a class="button-social-link" href="#">
+                <i class="button-social-icon fa-brands fa-facebook-f"></i>
+            </a>
+            <a class="button-social-link" href="#">
+                <i class="button-social-icon fa-brands fa-instagram"></i>
+            </a>
+            <a class="button-social-link" href="#">
+                <i class="button-social-icon fa-brands fa-youtube"></i>
+            </a>
+        </div>
+
+        <!-- Khuyến mãi: start -->
+        <div class="content">
+            <section class="sale-off">
+                <div class="sale-off-left">
+                    <img
+                        class="img-left"
+                        src="./images/banner-phụ_2m-600x320.jpg"
+                        alt="img_sale-off-left"
+                    />
+                    <a href="#" class="sale-off_title-link">
+                        <h2 class="sale-off_title-left">all black in back</h2>
+                    </a>
+                    <p class="sale-off_description-left">
+                        Mặc dù được ứng dụng rất nhiều, nhưng sắc đen lúc nào
+                        cũng toát lên một vẻ huyền bí không nhàm chán
+                    </p>
+                </div>
+                <div class="sale-off-right">
+                    <img
+                        class="img-right"
+                        src="./images/Banner_Sale-off-1.jpg"
+                        alt="img_sale-off-right"
+                    />
+                    <a href="#" class="sale-off_title-link">
+                        <h2 class="sale-off_title-right">outlet sale</h2>
+                    </a>
+                    <p class="sale-off_description-right">
+                        Danh mục những sản phẩm bán tại "giá tốt hơn" chỉ được
+                        bán kênh online -Online Only, chúng đã từng làm mưa làm
+                        gió một thời gian và hiện đang rơi vào tình trạng bể
+                        size, bể số.
+                    </p>
+                </div>
+            </section>
+        </div>
+        <!-- Khuyến mãi: end -->
+        <!-- ---------------------------------------------------------------------------- -->
+
+        <!-- Danh mục hàng; start -->
+        <div class="content">
+            <section class="caterogy">
+                <h1 class="caterogy-heading">Danh mục mua hàng</h1>
+                <div class="caterogy-group">
+                    <!-- caterogy-group_left -->
+                    <div class="caterogy-group_left">
+                        <img
+                            src="https://ananas.vn/wp-content/uploads/catalogy-1.jpg"
+                            alt="img-left"
+                            class="caterogy-group_left-img"
+                        />
+                        <div class="caterogy-group_left-content">
+                            <h2 class="caterogy-group_left-content_title">
+                                <a
+                                    class="caterogy-group_left-item_link"
+                                    href="#"
+                                >
+                                    Giày nam
+                                </a>
+                            </h2>
+                            <ul class="caterogy-group_left-list">
+                                <li class="caterogy-group_left-item">
+                                    <a
+                                        class="caterogy-group_left-item_link"
+                                        href="#"
+                                    >
+                                        New Arrivals
+                                    </a>
+                                </li>
+                                <li class="caterogy-group_left-item">
+                                    <a
+                                        class="caterogy-group_left-item_link"
+                                        href="#"
+                                    >
+                                        Best Seller
+                                    </a>
+                                </li>
+                                <li class="caterogy-group_left-item">
+                                    <a
+                                        class="caterogy-group_left-item_link"
+                                        href="#"
+                                    >
+                                        Sale-off
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- caterogy-group_center  -->
+                    <div class="caterogy-group_center">
+                        <img
+                            src="https://ananas.vn/wp-content/uploads/catalogy-2.jpg"
+                            alt="img-center"
+                            class="caterogy-group_center-img"
+                        />
+                        <div class="caterogy-group_center-content">
+                            <h2 class="caterogy-group_center-content_title">
+                                <a
+                                    class="caterogy-group_center-item_link"
+                                    href="#"
+                                >
+                                    Giày nữ
+                                </a>
+                            </h2>
+                            <ul class="caterogy-group_center-list">
+                                <li class="caterogy-group_center-item">
+                                    <a
+                                        class="caterogy-group_center-item_link"
+                                        href="#"
+                                    >
+                                        New Arrivals
+                                    </a>
+                                </li>
+                                <li class="caterogy-group_center-item">
+                                    <a
+                                        class="caterogy-group_center-item_link"
+                                        href="#"
+                                    >
+                                        Best Seller
+                                    </a>
+                                </li>
+                                <li class="caterogy-group_center-item">
+                                    <a
+                                        class="caterogy-group_center-item_link"
+                                        href="#"
+                                    >
+                                        Sale-off
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- caterogy-group_right -->
+                    <div class="caterogy-group_right">
+                        <img
+                            src="	https://ananas.vn/wp-content/uploads/catalogy-3.jpg"
+                            alt="img-right"
+                            class="caterogy-group_right-img"
+                        />
+                        <div class="caterogy-group_right-content">
+                            <h2 class="caterogy-group_right-content_title">
+                                <a
+                                    class="caterogy-group_right-item_link"
+                                    href="#"
+                                >
+                                    Dòng sản phẩm
+                                </a>
+                            </h2>
+                            <ul class="caterogy-group_right-list">
+                                <li class="caterogy-group_right-item">
+                                    <a
+                                        class="caterogy-group_right-item_link"
+                                        href="#"
+                                    >
+                                        Basas
+                                    </a>
+                                </li>
+                                <li class="caterogy-group_right-item">
+                                    <a
+                                        class="caterogy-group_right-item_link"
+                                        href="#"
+                                    >
+                                        Vintas
+                                    </a>
+                                </li>
+                                <li class="caterogy-group_right-item">
+                                    <a
+                                        class="caterogy-group_right-item_link"
+                                        href="#"
+                                    >
+                                        Urbas
+                                    </a>
+                                </li>
+                                <li class="caterogy-group_right-item">
+                                    <a
+                                        class="caterogy-group_right-item_link"
+                                        href="#"
+                                    >
+                                        Pattas
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- Danh mục hàng; end -->
+        <!-- ---------------------------------------------------------------------------- -->
+
+        <!-- banner: start -->
+        <section class="banner-section">
+            <img
+                src="./images/Banner_Clothing.jpg"
+                alt="Banner_Clothing.jpg"
+                class="w100pt"
+            />
+        </section>
+        <!-- banner: end -->
+        <!-- ---------------------------------------------------------------------------- -->
+
+        <!-- Tin tức bài viết: start -->
+        <div class="content">
+            <section class="news">
+                <div class="news_left">
+                    <p class="news_title">instagram</p>
+                </div>
+                <div class="news_right">
+                    <p class="news_title">tin tức & bài viết</p>
+                    <div class="news_right-group">
+                        <div class="news_right-group_row">
+                            <img
+                                class="news_right-group_row-img"
+                                src="./images/kvngang_mobile_web-300x160.jpg"
+                                alt="kvngang_mobile_web-300x160.jpg"
+                            />
+                            <h2 class="news_right-group_row-title">
+                                URBAS CORLURAY PACK
+                            </h2>
+                            <p class="news_right-group_row-description">
+                                Urbas Corluray Pack đem đến lựa chọn “làm mới
+                                mình” với sự kết hợp 5 gam màu mang sắc thu; phù
+                                hợp với những người trẻ năng động, mong muốn thể
+                                hiện
+                            </p>
+                            <a class="news_right-group_row-btn" href="#"
+                                >Đọc thêm</a
+                            >
+                        </div>
+                        <div class="news_right-group_row">
+                            <img
+                                class="news_right-group_row-img"
+                                src="./images/Mobile_Blog-1980s_0-300x160.jpg"
+                                alt="Mobile_Blog-1980s_0-300x160.jpg"
+                            />
+                            <h2 class="news_right-group_row-title">
+                                VINTAS SAIGON 1980s
+                            </h2>
+                            <p class="news_right-group_row-description">
+                                Với bộ 5 sản phẩm, Vintas Saigon 1980s Pack đem
+                                đến một sự lựa chọn “cũ kỹ thú vị” cho những
+                                người trẻ sống giữa thời hiện đại nhưng lại yêu
+                                nét kjkdfjfhh
+                            </p>
+                            <a class="news_right-group_row-btn" href="#"
+                                >Đọc thêm</a
+                            >
+                        </div>
+                        <div class="news_right-group_row">
+                            <img
+                                class="news_right-group_row-img"
+                                src="./images/peeping_pattas01-300x160.jpg"
+                                alt="peeping_pattas01-300x160.jpg"
+                            />
+                            <h2 class="news_right-group_row-title">
+                                SNEAKER FEST VIETNAM VÀ SỰ KẾT HỢP
+                            </h2>
+                            <p class="news_right-group_row-description">
+                                Việc sử dụng dáng giày Vulcanized High Top của
+                                Ananas trong thiết kế và cảm hứng bắt nguồn từ
+                                linh vật Peeping - đại diện cho tinh thần xuyên
+                                djdkljdfljfldj
+                            </p>
+                            <a class="news_right-group_row-btn" href="#"
+                                >Đọc thêm</a
+                            >
+                        </div>
+                        <div class="news_right-group_row">
+                            <img
+                                class="news_right-group_row-img"
+                                src="./images/shoes-anatomy-thumbnail-300x160.jpg"
+                                alt="shoes-anatomy-thumbnail-300x160.jpg"
+                            />
+                            <h2 class="news_right-group_row-title">
+                                "GIẢI PHẪU" GIÀY VULCANIZED
+                            </h2>
+                            <p class="news_right-group_row-description">
+                                Trong phạm vi bài viết ngắn, hãy cùng nhau tìm
+                                hiểu cấu tạo giày Vulcanized Sneaker - loại sản
+                                phẩm mà Ananas đã chọn làm "cốt lõi" để theo
+                                đuổi trong
+                            </p>
+                            <a class="news_right-group_row-btn" href="#"
+                                >Đọc thêm</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="btn_muonxemnua">
+            <a href="#" class="btn_muonxemnua-link">muốn xem nữa</a>
+        </div>
+        <!-- Tin tức bài viết: end -->
+        <!-- ---------------------------------------------------------------------------- -->
+        <!-- Footer: start -->
+        <footer class="footer">
+            <div class="footer-group">
+                <div class="footer-logo">
+                    <img
+                        class="footer-img"
+                        src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/svg/Store.svg"
+                        alt="logo-footer"
+                    />
+                    <a class="btn-timcuahang" href="#">Tìm cửa hàng</a>
+                </div>
+                <div class="footer-wrapper">
+                    <div class="footer-wrapper-group1">
+                        <div class="footer-list_product">
+                            <h2 class="footer-list_title">Sản phẩm</h2>
+                            <ul class="footer-list">
+                                <li class="footer-list_item">
+                                    <a class="footer-list_item-link" href="#"
+                                        >Giày Nam</a
+                                    >
+                                </li>
+                                <li class="footer-list_item">
+                                    <a class="footer-list_item-link" href="#"
+                                        >Giày Nữ</a
+                                    >
+                                </li>
+                                <li class="footer-list_item">
+                                    <a class="footer-list_item-link" href="#"
+                                        >Thời trang & Phụ kiện</a
+                                    >
+                                </li>
+                                <li class="footer-list_item">
+                                    <a class="footer-list_item-link" href="#"
+                                        >Sale-off</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-list_company">
+                            <h2 class="footer-list_title">Về công ty</h2>
+                            <ul class="footer-list">
+                                <li class="footer-list_item">
+                                    <a class="footer-list_item-link" href="#"
+                                        >Dứa tuyển dụng</a
+                                    >
+                                </li>
+                                <li class="footer-list_item">
+                                    <a class="footer-list_item-link" href="#"
+                                        >Liên hệ nhượng quyền</a
+                                    >
+                                </li>
+                                <li class="footer-list_item">
+                                    <a class="footer-list_item-link" href="#"
+                                        >Về Ananas</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-list_support">
+                            <h2 class="footer-list_title">Hỗ trợ</h2>
+                            <ul class="footer-list">
+                                <li class="footer-list_item">
+                                    <a class="footer-list_item-link" href="#"
+                                        >FAQs</a
+                                    >
+                                </li>
+                                <li class="footer-list_item">
+                                    <a class="footer-list_item-link" href="#"
+                                        >Bảo mật thông tin</a
+                                    >
+                                </li>
+                                <li class="footer-list_item">
+                                    <a class="footer-list_item-link" href="#"
+                                        >Chính sách chung</a
+                                    >
+                                </li>
+                                <li class="footer-list_item">
+                                    <a class="footer-list_item-link" href="#"
+                                        >Tra cứu đơn hàng</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-list_contact">
+                            <h2 class="footer-list_title">Liên hệ</h2>
+                            <ul class="footer-list">
+                                <li class="footer-list_item">
+                                    <a class="footer-list_item-link" href="#"
+                                        >Email góp ý</a
+                                    >
+                                </li>
+                                <li class="footer-list_item">
+                                    <a class="footer-list_item-link" href="#"
+                                        >Hotline</a
+                                    >
+                                </li>
+                                <li class="footer-list_item">
+                                    <a class="footer-list_item-link" href="#"
+                                        >0963 429 749</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-wrapper-group2">
+                        <div class="footer-wrapper-group2-list1">
+                            <h1 class="footer-list_title_bottom">
+                                ANANAS SOCIAL
+                            </h1>
+                            <div class="footer-social">
+                                <i
+                                    class="footer-social_icon fa-brands fa-facebook-f"
+                                ></i>
+                                <i
+                                    class="footer-social_icon fa-brands fa-instagram"
+                                ></i>
+                                <i
+                                    class="footer-social_icon fa-brands fa-youtube"
+                                ></i>
+                            </div>
+                        </div>
+                        <div class="footer-wrapper-group2-list2">
+                            <h1 class="footer-list_title_bottom pdt28px">
+                                Đăng ký nhận mail
+                            </h1>
+                            <input type="text" class="footer-input" /><br />
+                            <button class="footer-btn-input" type="button">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                        <div class="footer-wrapper-group2-list3">
+                            <img
+                                src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/svg/Logo_Ananas_Footer.svg"
+                                alt="banner
+_footer"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer: end -->
+    </body>
+</html>
